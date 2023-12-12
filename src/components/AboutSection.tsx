@@ -49,14 +49,14 @@ export default function About(){
     };
     return (
         <section className="text-white" id="about">
-            <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 ">
+            <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
                 <Image className="bg-gray-800 rounded-xl" alt="profile" src="/images/profile3.png" width={450} height={450} />
                 <div>
                     <h2 className="text-4xl font-bold text-white mb-4 mt-4">About Me</h2>
-                    <p className="text-base lg:text-lg"> Hi, I'm Ni Kadek Belinda Asty or 
+                    <p className="text-base lg:text-lg"> {`Hi, I'm Ni Kadek Belinda Asty or 
                         usually called Asty. I am a student at SMK Wikrama Bogor, majoring
                         in Software and Game Development. I love learning new things, Every
-                        project is an opportunity for growth, and I am excited about the possibilities.
+                        project is an opportunity for growth, and I am excited about the possibilities.`}
                     </p>
                     <div className="flex flex-row mt-8 ">
                         <TabButton selectTab={() => handleTabChange("skills")} active={tab === "skills"}>

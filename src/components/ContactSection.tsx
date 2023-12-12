@@ -1,10 +1,11 @@
+
 export default function ContactSection(){
     return (
         <section id="contact">
             <div className="text-center text-xl py-8 px-8 mt-8">
             <h2 className="text-4xl font-bold text-white mb-4 mt-4">Contact Me Via</h2>
             <p className="text-base text-white py-5">
-                If you have any specific preferences or if there's anything else you'd like me to help you with, feel free to let me know!
+                {`If you have any specific preferences or if there's anything else you'd like me to help you with, feel free to let me know!`}
             </p>
 
             <a href="https://github.com/asty777" className="inline-flex items-center text-rose-300 hover:underline">
